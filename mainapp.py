@@ -7,6 +7,11 @@ from urllib.parse import urlparse
 from nltk.tokenize import word_tokenize, sent_tokenize
 import chardet
 import syllapy
+import nltk
+
+# Ensure the punkt tokenizer is downloaded
+nltk.download('punkt')
+
 
 
 # Function to extract and clean text from URL

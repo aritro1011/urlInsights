@@ -1,5 +1,3 @@
-
-re
 nltk
 pkg_resources
 streamlit

@@ -1,6 +1,7 @@
 # URLInsights: Text Analysis from URLs
 
 URLInsights is a powerful tool that allows users to analyze the content of URLs by extracting the text and performing various analyses such as sentiment analysis, readability scores, and more. Users can either analyze a single URL or upload an Excel file containing multiple URLs for batch processing.
+webapp link: https://urlinsights.streamlit.app/
 
 ## Features
 

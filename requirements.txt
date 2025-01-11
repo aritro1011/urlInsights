@@ -1,5 +1,4 @@
 nltk
-pkg_resources
 streamlit
 pandas
 openpyxl

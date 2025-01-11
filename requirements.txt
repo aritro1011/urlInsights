@@ -8,3 +8,4 @@ numpy
 textblob
 chardet
 syllapy
+setuptools>=42

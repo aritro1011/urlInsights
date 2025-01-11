@@ -127,11 +127,6 @@ def process_urls(input_file, output_file, dictionaries_folder, folder_name):
 
 # Main function for program options
 def main():
-    import nltk
-nltk.download('punkt')
-
-# Your existing code below
-
     print("Welcome to the Text Analysis Program!")
     print("Choose an option:")
     print("1. Analyze a single URL")

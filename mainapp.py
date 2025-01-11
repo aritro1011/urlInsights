@@ -7,6 +7,8 @@ from urllib.parse import urlparse
 from nltk.tokenize import word_tokenize, sent_tokenize
 import chardet
 import syllapy
+import nltk
+nltk.download('punkt', quiet=True)
 
 # Function to extract and clean text from URL
 def extract_text_from_url(url, folder_name, index=1):

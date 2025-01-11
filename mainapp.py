@@ -7,8 +7,7 @@ from urllib.parse import urlparse
 from nltk.tokenize import word_tokenize, sent_tokenize
 import chardet
 import syllapy
-import nltk
-nltk.download('punkt', quiet=True)
+
 
 # Function to extract and clean text from URL
 def extract_text_from_url(url, folder_name, index=1):
@@ -128,6 +127,11 @@ def process_urls(input_file, output_file, dictionaries_folder, folder_name):
 
 # Main function for program options
 def main():
+    import nltk
+nltk.download('punkt')
+
+# Your existing code below
+
     print("Welcome to the Text Analysis Program!")
     print("Choose an option:")
     print("1. Analyze a single URL")

@@ -1,3 +1,6 @@
+os
+re
+nltk
 pkg_resources
 streamlit
 pandas
